@@ -51,6 +51,8 @@
                         {{ i }}
                         <span style="position:relative; float: right;">
                             <a href="{% url 'mark_as_undone' i.pk %}" class="btn btn-danger"><i class="fa fa-close"></i>Undone</a>
+                            <a href="{% url 'deletes' i.pk %}" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+
                         </span>
                     </div>
                 </div>
